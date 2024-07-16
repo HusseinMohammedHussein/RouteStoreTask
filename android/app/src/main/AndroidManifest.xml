@@ -3,7 +3,7 @@
    <application
         android:label="${appName}"
         android:name="${applicationName}"
-        android:icon="@mipmap/route_logo.png">
+        android:icon="@mipmap/route_logo">
         <activity
             android:name=".MainActivity"
             android:exported="true"
