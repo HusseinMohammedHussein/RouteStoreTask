@@ -1,5 +1,5 @@
 name: route_store_task
-description: A Very Good Project created by Very Good CLI.
+description: Store Route Products Scree
 version: 1.0.0+1
 publish_to: none
 
@@ -8,12 +8,20 @@ environment:
 
 dependencies:
   bloc: ^8.1.3
+  cached_network_image: ^3.3.1
+  dartz: ^0.10.1
+  dio: ^5.5.0+1
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.4
   flutter_localizations:
     sdk: flutter
+  flutter_native_splash: ^2.4.0
+  get_it: ^7.7.0
+  go_router: ^14.2.1
   intl: ^0.18.1
+  nb_utils: ^7.0.3
 
 dev_dependencies:
   bloc_test: ^9.1.6
@@ -25,3 +33,14 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+  assets:
+    - assets/
+
+flutter_native_splash:
+  background_image: "assets/logo_app.png"
+  branding: assets/logo_app.png
+  android_gravity: clip_vertical
+  ios_content_mode: center
+  android_screen_orientation: sensorPortrait
+  android: true
+  ios: true
